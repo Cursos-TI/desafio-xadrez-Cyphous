@@ -23,5 +23,18 @@ int main() {
         r++;
     } while (r <= 8);
 
+    // Cavalo: movimenta em "L" (2 para baixo e 1 para esquerda)
+    printf("\nMovimento do Cavalo:\n");
+
+    int cavaloMovido = 0;
+    while (cavaloMovido < 1) {
+        for (int i = 0; i < 2; i++) {
+            printf("Baixo\n");
+        }
+        printf("Esquerda\n");
+
+        cavaloMovido++;
+    }
+
     return 0;
 }
